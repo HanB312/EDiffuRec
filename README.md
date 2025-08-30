@@ -28,7 +28,7 @@ EDiffuRec/
 └── README.md
 ```
 
-### 1. Data Preparation
+## 1. Data Preparation
 
 Preprocessed dataset files (e.g., dataset.pkl) should be placed under:
 
@@ -36,7 +36,7 @@ Preprocessed dataset files (e.g., dataset.pkl) should be placed under:
 datasets/data/{dataset_name}/ 
 ```
 
-### 2. Training and Evaluation
+## 2. Training and Evaluation
 ```bash
 cd src
 python main_hb.py --dataset amazon_beauty --noise_dist weibull --epochs 500
@@ -45,7 +45,7 @@ python main_hb.py --dataset amazon_beauty --noise_dist weibull --epochs 500
 ## Citation
 If you use this code, please cite:
 
-```bibtext
+```bibtex
 @article{lee2024ediffurec,
   title={EDiffuRec: An Enhanced Diffusion Model for Sequential Recommendation},
   author={Lee, Hanbyul and Kim, Junghyun},
