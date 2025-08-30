@@ -4,7 +4,7 @@ This repository provides the official implementation of **EDiffuRec**, proposed 
 
 > Hanbyul Lee and Junghyun Kim,  
 > "EDiffuRec: An Enhanced Diffusion Model for Sequential Recommendation,"  
-> *Mathematics*, vol. 12(12), no. 1795, pp. 1-14, Jun. 2024. (SCIE)
+> *Mathematics*, vol. 12(12), no. 1795, pp. 1-14, Jun. 2024. (https://doi.org/10.3390/math12121795)
 
 EDiffuRec is based on and extends [DiffuRec](https://github.com/WHUIR/DiffuRec) (MIT License).  
 We thank the original authors for releasing their code.
@@ -36,15 +36,10 @@ Preprocessed dataset files (e.g., dataset.pkl) should be placed under:
 datasets/data/{dataset_name}/ 
 ```
 
-### 2. Training
+### 2. Training and Evaluation
 ```bash
 cd src
 python main_hb.py --dataset amazon_beauty --noise_dist weibull --epochs 500
-```
-
-### 3. Evaluation
-```bash
-python main_hb.py --dataset amazon_beauty --eval_interval 20
 ```
 
 ## Citation
